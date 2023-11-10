@@ -1,4 +1,9 @@
-console.log("This is planner.js");
+// console.log("This is planner.js");
+
+var todaysDate = dayjs().format("dddd,Do MMMM YYYY");
+$("#currentDay").text(todaysDate);
+// console.log(todaysDate);
+
 // Figure out today's date, and put it at the top of the page
 // var startHour = "7 am";
 // var endHour = "5 pm";
